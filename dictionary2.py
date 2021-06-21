@@ -32,3 +32,10 @@ print(letter_B)
 print(letter_C)
 print(letter_D)
 print(letter_E)
+
+def letterPlacement(letter1, letter2):
+    letterPosition = letter1 + letter2
+    return letterPosition
+
+print(letterPlacement(letter_A, letter_B))
+

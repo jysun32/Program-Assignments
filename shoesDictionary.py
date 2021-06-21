@@ -21,14 +21,22 @@ print (Foamposite)
 print(AirMax)
 print(SBDunk)
 
-del shoes["Jordan 13"]
-del shoes["Yeezy"]
+def restock(shoes, x):
+    shoeValue = shoes * x
+    return shoeValue
 
-print(Jordan13)
-print(Yeezy)
-print (Foamposite)
-print(AirMax)
-print(SBDunk)
+def clearanceSale(shoes, x):
+    shoeSale = shoes / x
+    return shoeSale
+
+
+print(restock(Jordan13, 3))
+print(clearanceSale(Foamposite, 2))
+  
+
+
+
+
 
 
 
